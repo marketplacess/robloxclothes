@@ -1,1 +1,67 @@
-<center>paste ur shitty html here and ur done with the site, see how easy it is to do shit like this<center>
+
+<!-- saved from url=(0016)https://kittenz.tk/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_cc by_files/style.css">
+    <meta property="twitter:card" content="photo">
+    <meta property="twitter:title" content="kittenz.tk">
+    <meta property="twitter:description" content="current holder hz#3623">
+    <meta property="theme-color" content="#36393F">
+    <title> kittenz.tk  </title>
+    <meta name="description" content="hz#3623">
+    <meta http-equiv="refresh" content="120">
+    <meta name="keywords" content="real">
+    <meta name="author" content="hz">
+
+</style>
+</head>
+<body>
+    <script>
+        function MovingTitle(writeText, interval, visibleLetters) {
+            var _instance = {};
+
+            var _currId = 0;
+            var _numberOfLetters = writeText.length;
+
+            function updateTitle() {
+                _currId += 1;
+                if(_currId > _numberOfLetters - 1) {
+                    _currId = 0; 
+                }
+
+                var startId = _currId;
+                var endId = startId + visibleLetters;
+                var finalText;
+                if(endId < _numberOfLetters - 1) {
+                    finalText = writeText.substring(startId, endId);
+                } else {
+                    var cappedEndId = _numberOfLetters;
+                    endId = endId - cappedEndId;
+
+                    finalText = writeText.substring(startId, cappedEndId) +     writeText.substring(0, endId);
+                }
+
+                document.title = finalText; 
+            }
+
+            _instance.init = function() {
+                setInterval(updateTitle, interval);
+            };
+        var title = new MovingTitle("kittenz.tk     ", 300, 10);
+        title.init();
+            return _instance;
+        }
+
+    </script>
+
+    <img class="profile-picture">
+    
+    <div id="wrapper"></div>
+
+<center>just paste ur html shit here and ur done<center>
+
+
+    <script src="./_cc by_files/script.js.download"></script>
+
+</body></html>
